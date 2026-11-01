@@ -1,0 +1,39 @@
+#main_cafe img{
+    border: var(--main_border);
+}
+
+.main_cafe_text {
+    white-space: pre-line;
+    font-size: 1.6em;
+}
+
+.main_cafe_text h3 {
+    text-align: center;
+}
+
+.main_cafe_text h1 {
+    font-size: 3em;
+    text-align: center;
+    font-style: oblique;
+}
+
+.main_cafe_text h2 {
+    font-size: 2em;
+    text-align: center;
+    font-style: oblique;
+}
+
+.main_cafe_text ul {
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.img img {
+    max-width: 50%;
+    height: auto;
+}

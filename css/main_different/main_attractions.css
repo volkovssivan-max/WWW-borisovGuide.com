@@ -1,0 +1,27 @@
+#main_attractions {
+  margin-top: 45px;
+}
+
+#main_attractions p {
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 1.6em;
+}
+
+#main_attractions h2 {
+    font-size: 3em;
+    white-space: pre-wrap;
+    text-align: center;
+    font-style: oblique;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.img img {
+    max-width: 50%;
+    height: auto;
+}   

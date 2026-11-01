@@ -1,0 +1,54 @@
+/* footer основа */
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    background: #979bad;
+    border-top: 2px solid #000;
+
+    position: relative;
+    z-index: 1001;
+
+    margin-top: auto;
+}
+
+footer h3{
+    font-family: Garamond;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+
+/* шапка доп.текст */
+#footer_ul {
+    list-style: none;
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* Шрифт */
+footer {   
+    font-size: 1.2em;
+    font-style: oblique;
+}
+
+/* элементы под текста */
+#footer_ul li {
+    display: inline-block;
+    background: #979bad;
+    padding: 0 20px;
+    cursor: pointer;  
+    font-size: 1.6em;
+}
+
+#footer_ul a {
+    transition: color 0.3s ease-in-out; 
+}
+
+#footer_ul a:hover {
+    color: #fff;
+}

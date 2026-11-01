@@ -1,0 +1,25 @@
+#main {
+    margin-top: 40px;
+}
+
+#main img {   
+    border-top: 2px solid #000;
+}
+
+/* text */
+#tetx_main {
+    background: #fff;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
+
+/* img */
+.img_main {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-width: 90vw;
+}
