@@ -38,7 +38,7 @@
     margin-top: 40px ;
 }
 
-/*  */
+/* боковые изображение */
 #aside_img {
     position: absolute; 
     top: 0;
@@ -51,6 +51,7 @@
     pointer-events: none;
 }
 
+/* текст бок */
 #aside_ul a {
     color: #fff;
     transition: color 0.3s ease-in-out; 
@@ -60,7 +61,7 @@
     color: #b3b3b3; 
 } 
 
-/*  */
+/* бургер меню */
 .burger-btn,
 #burger-toggle {
     display: none;
